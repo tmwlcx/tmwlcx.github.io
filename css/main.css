@@ -21,7 +21,7 @@ color: #000000;
 }
 
 .navbar-toggler{ 
-	background: #ff0f !important; 
+	background: #fff !important; 
 }
 
 .bg-dark{ 
@@ -48,4 +48,28 @@ color: #000000;
 	left: 0;
 	top: 0;
 	background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+	position: absolute;
+	top: 30%;
+	margin: auto;
+	padding: 2em;
+}
+
+.description h1{
+	color: #F97300;
+}
+
+.description p{
+	color: #666;
+	font-size: 20px;
+	width: 100%;
+	line-height: 1;
+}
+
+.description button{
+	border: 1px solid #F97300;
+	background: #F97300;
+	color: #fff;
 }
