@@ -12,8 +12,8 @@ cursor: pointer;
 }
 
 .nav-link:hover{ 
-	background: : #f4f4f4; 
-color: #000000; 
+	/*background: #F97300; */
+	color: #000000; 
 }
 
 .navbar-collapse{ 
@@ -21,7 +21,7 @@ color: #000000;
 }
 
 .navbar-toggler{ 
-	background: #fff !important; 
+	background: #000000 !important; 
 }
 
 .bg-dark{ 
