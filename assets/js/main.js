@@ -16,18 +16,23 @@
     }
   });
 
-  // Hero typed
+  // Hello, worlded typed
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
     typed_strings = typed_strings.split(',')
-    new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 20,
-      backSpeed: 30,
-      backDelay: 2000
+      new Typed('.typed', {
+        strings: typed_strings,
+        loop: true,
+        shuffle: false,
+        typeSpeed: 40,
+        backSpeed: 30,
+        backDelay: 2000,
+        cursorChar: '_'
     });
-  }
+    }
+
+
+
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
