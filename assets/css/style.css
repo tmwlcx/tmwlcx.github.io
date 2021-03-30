@@ -404,8 +404,8 @@ section {
 }
 
 /* # Trying to vertically center this image */
-.aboutimg {
-/*   text-align: center; */
+.about .aboutimg img p {
+  text-align: center;
   vertical-align: middle;
 }
 
