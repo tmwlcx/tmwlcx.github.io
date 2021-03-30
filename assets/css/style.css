@@ -402,8 +402,9 @@ section {
   margin-bottom: 0;
 }
 
-.about .aboutimg {
-  text-align: center;
+/* # Trying to vertically center this image */
+.aboutimg {
+/*   text-align: center; */
   vertical-align: middle;
 }
 
