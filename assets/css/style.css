@@ -402,8 +402,8 @@ section {
   margin-bottom: 0;
 }
 
-#aboutimg {
-  border-radius:8px;
+.about .aboutimg {
+  text-align: center;
 }
 
 
