@@ -433,7 +433,8 @@ section {
 /* The actual tooltip with a dynamic width */
 [data-tooltip]:before {
   content: attr(data-tooltip);
-  padding: 10px 18px;
+  padding: 5px 5px;
+/*   padding: 10px 18px; */
   min-width: 50px;
   max-width: 300px;
   width: max-content;
